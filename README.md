@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+Jamming - React Spotify Playlist Creator
+Project Overview
+Jamming is a React-based web application that allows users to search for songs using the Spotify API, create custom playlists, and save them to their Spotify account. This project was developed as a learning experience to practice and demonstrate various React concepts and skills.
+What I Learned
+Through the development of this project, I gained hands-on experience with several key React concepts and related technologies:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React Components and Props: I learned how to structure a React application using functional components (e.g., App, SearchBar, Results, Playlist) and pass data between them using props.
+State Management: I used the useState hook to manage local component state, such as search results, playlist tracks, and form inputs.
+Side Effects: The useEffect hook was employed to handle side effects, like updating the playlist name when it changes.
+Event Handling: I implemented various event handlers to manage user interactions, such as searching for tracks, adding tracks to a playlist, and saving playlists.
+Conditional Rendering: The application uses conditional rendering to display search results or a message when no tracks are found.
+API Integration: I learned how to integrate with external APIs (Spotify API) using async/await and the Fetch API to perform CRUD operations.
+Material-UI (MUI): I gained experience using a popular React UI framework to create a responsive and visually appealing interface.
+CSS-in-JS: Through MUI's sx prop, I learned how to apply styles directly to components using JavaScript objects.
+React Hooks: Besides useState and useEffect, I got familiar with the concept of custom hooks for reusable stateful logic.
+Error Handling: I implemented basic error handling for API requests and displayed user-friendly messages.
+Performance Optimization: I used techniques like filtering out duplicate tracks to improve the user experience.
+Git Version Control: Throughout the project, I practiced using Git for version control and collaborating on GitHub.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+Search for tracks using the Spotify API
+Display search results with track information
+Add tracks to a custom playlist
+Edit the playlist name
+Save the playlist to the user's Spotify account
 
-### `npm start`
+Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React
+Material-UI (MUI)
+Spotify API
+JavaScript (ES6+)
+HTML5
+CSS3
